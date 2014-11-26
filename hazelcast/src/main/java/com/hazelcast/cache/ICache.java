@@ -779,7 +779,7 @@ public interface ICache<K, V>
     int size();
 
     /**
-     * Closes the cache. Clears the internal content and releases any resource.
+     * Closes the cache. Clears the internal content and releases any resources.
      *
      * @see javax.cache.CacheManager#destroyCache(String)
      */
